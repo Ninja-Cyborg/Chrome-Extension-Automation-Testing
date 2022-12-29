@@ -28,7 +28,6 @@
 - you can change the values for browser, extensionName from testng_suite.xml file
 
 # Limitations
-- The basic installation process for all extensions are same. So, chromeWebStorePageTest and ExtentionPage will validate all Chrome WebStore Extensions
 - To get the dynamic component(inline-card) from shadom-DOM : The code to hover over test to show inline-card is hard-coded.
 
 
