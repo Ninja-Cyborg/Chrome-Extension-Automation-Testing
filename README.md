@@ -2,7 +2,8 @@
 ##  Automation of Chrome Extension with Selenium
 
 # ScreenCast of running Tests and report
-- [Youtube](https://youtu.be/uFhx0TH_fas)
+- [Framework-Walkthorough]()
+- [Test Run](https://youtu.be/uFhx0TH_fas)
 
 # Approach
 - I followed Data driven approach
