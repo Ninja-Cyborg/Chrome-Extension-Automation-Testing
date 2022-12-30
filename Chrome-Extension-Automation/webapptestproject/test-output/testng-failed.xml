@@ -8,15 +8,6 @@
     <parameter name="extensionName" value="Grammarly: Grammar Checker and Writing App"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.webapptestproject.testcases.NegativeTestCase">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validateLanguageErrorsAreNotDetected" invocation-numbers="0"/>
-          <include name="loadConfig"/>
-          <include name="setup"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- com.webapptestproject.testcases.NegativeTestCase -->
       <class name="com.webapptestproject.testcases.ExtensionPageTest">
         <methods>
           <include name="tearDown"/>

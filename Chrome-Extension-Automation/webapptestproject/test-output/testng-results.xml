@@ -2,12 +2,12 @@
 <testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-25T21:19:29 GMT-08:00" name="Suite" finished-at="2022-12-25T21:23:24 GMT-08:00" duration-ms="235176">
+  <suite started-at="2022-12-30T11:32:31 GMT-08:00" name="Suite" finished-at="2022-12-30T11:35:51 GMT-08:00" duration-ms="199890">
     <groups>
     </groups>
-    <test started-at="2022-12-25T21:19:29 GMT-08:00" name="Test_All" finished-at="2022-12-25T21:23:24 GMT-08:00" duration-ms="235176">
+    <test started-at="2022-12-30T11:32:31 GMT-08:00" name="Test_All" finished-at="2022-12-30T11:35:51 GMT-08:00" duration-ms="199890">
       <class name="com.webapptestproject.testcases.PositiveTestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@5824a83d]" started-at="2022-12-25T21:20:56 GMT-08:00" name="setup" finished-at="2022-12-25T21:21:00 GMT-08:00" duration-ms="4862" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@121314f7]" started-at="2022-12-30T11:33:30 GMT-08:00" name="setup" finished-at="2022-12-30T11:33:35 GMT-08:00" duration-ms="4777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkForErrorReplaement(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@5824a83d]" started-at="2022-12-25T21:21:00 GMT-08:00" name="checkForErrorReplaement" finished-at="2022-12-25T21:22:15 GMT-08:00" duration-ms="74634" status="PASS">
+        <test-method signature="checkForErrorReplacement(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@121314f7]" started-at="2022-12-30T11:33:35 GMT-08:00" name="checkForErrorReplacement" finished-at="2022-12-30T11:34:50 GMT-08:00" duration-ms="75164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,18 +28,18 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkForErrorReplaement -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@5824a83d]" started-at="2022-12-25T21:22:15 GMT-08:00" name="tearDown" finished-at="2022-12-25T21:22:16 GMT-08:00" duration-ms="1224" status="PASS">
+        </test-method> <!-- checkForErrorReplacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.PositiveTestCase@121314f7]" started-at="2022-12-30T11:34:50 GMT-08:00" name="tearDown" finished-at="2022-12-30T11:34:51 GMT-08:00" duration-ms="995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.webapptestproject.testcases.PositiveTestCase -->
       <class name="com.webapptestproject.testcases.ExtensionPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@6fdbe764]" started-at="2022-12-25T21:19:27 GMT-08:00" name="loadConfig" finished-at="2022-12-25T21:19:29 GMT-08:00" duration-ms="1709" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@242b836]" started-at="2022-12-30T11:32:30 GMT-08:00" name="loadConfig" finished-at="2022-12-30T11:32:31 GMT-08:00" duration-ms="1130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@6fdbe764]" started-at="2022-12-25T21:19:29 GMT-08:00" name="setup" finished-at="2022-12-25T21:19:39 GMT-08:00" duration-ms="9704" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@242b836]" started-at="2022-12-30T11:32:32 GMT-08:00" name="setup" finished-at="2022-12-30T11:32:40 GMT-08:00" duration-ms="8921" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateIfExtensionInstalled(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@6fdbe764]" started-at="2022-12-25T21:19:39 GMT-08:00" name="validateIfExtensionInstalled" finished-at="2022-12-25T21:20:55 GMT-08:00" duration-ms="75839" status="PASS">
+        <test-method signature="validateIfExtensionInstalled(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@242b836]" started-at="2022-12-30T11:32:40 GMT-08:00" name="validateIfExtensionInstalled" finished-at="2022-12-30T11:33:29 GMT-08:00" duration-ms="48597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,17 +61,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateIfExtensionInstalled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@6fdbe764]" started-at="2022-12-25T21:20:55 GMT-08:00" name="tearDown" finished-at="2022-12-25T21:20:56 GMT-08:00" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@242b836]" started-at="2022-12-30T11:33:29 GMT-08:00" name="tearDown" finished-at="2022-12-30T11:33:30 GMT-08:00" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@6fdbe764]" started-at="2022-12-25T21:23:24 GMT-08:00" name="afterSuite" finished-at="2022-12-25T21:23:25 GMT-08:00" duration-ms="1018" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.webapptestproject.testcases.ExtensionPageTest@242b836]" started-at="2022-12-30T11:35:51 GMT-08:00" name="afterSuite" finished-at="2022-12-30T11:35:52 GMT-08:00" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.webapptestproject.testcases.ExtensionPageTest -->
       <class name="com.webapptestproject.testcases.NegativeTestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@537f60bf]" started-at="2022-12-25T21:22:16 GMT-08:00" name="setup" finished-at="2022-12-25T21:22:23 GMT-08:00" duration-ms="6515" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@130c12b7]" started-at="2022-12-30T11:34:51 GMT-08:00" name="setup" finished-at="2022-12-30T11:34:55 GMT-08:00" duration-ms="4492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLanguageErrorsAreNotDetected(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@537f60bf]" started-at="2022-12-25T21:22:23 GMT-08:00" name="validateLanguageErrorsAreNotDetected" finished-at="2022-12-25T21:23:23 GMT-08:00" duration-ms="60318" status="PASS">
+        <test-method signature="validateLanguageErrorsAreNotDetected(java.lang.String)[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@130c12b7]" started-at="2022-12-30T11:34:55 GMT-08:00" name="validateLanguageErrorsAreNotDetected" finished-at="2022-12-30T11:35:50 GMT-08:00" duration-ms="55130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLanguageErrorsAreNotDetected -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@537f60bf]" started-at="2022-12-25T21:23:23 GMT-08:00" name="tearDown" finished-at="2022-12-25T21:23:24 GMT-08:00" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webapptestproject.testcases.NegativeTestCase@130c12b7]" started-at="2022-12-30T11:35:50 GMT-08:00" name="tearDown" finished-at="2022-12-30T11:35:51 GMT-08:00" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

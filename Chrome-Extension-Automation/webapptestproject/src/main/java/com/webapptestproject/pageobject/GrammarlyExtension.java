@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import com.webapptestproject.base.BaseClass;
 
-public class GrammarlyExtension extends BaseClass{
+public class GrammarlyExtension {
 	
 	public JavascriptExecutor jsExecutor;
 	

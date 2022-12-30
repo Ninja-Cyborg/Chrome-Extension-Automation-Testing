@@ -33,8 +33,9 @@ public class PositiveTestCase extends BaseClass{
 	
 	@Parameters("extensionName")
 	@Test
-	public void checkForErrorReplaement(String extensionName) throws InterruptedException, AWTException {
-		Log.testCasestarts("checkForErrorReplaement");
+	public void checkForErrorReplacement(String extensionName) throws InterruptedException, AWTException {
+		Log.testCasestarts("checkForErrorReplacement");
+	
 		chromeWebStorePage = new ChromeWebStorePage();
 		chromeWebStorePage.searchExtension(extensionName);
 		extensionPage = chromeWebStorePage.openExtensionPage(extensionName);
@@ -42,7 +43,6 @@ public class PositiveTestCase extends BaseClass{
 		Log.info("Installed extension: " +extensionName);
 		googleTranslatePage = extensionPage.openGoogleTranslatePage();
 		Log.info("adding text input");
-		Thread.sleep(3000);
 		String inputText = "DDatabase!";
 		googleTranslatePage.getTextArea().sendKeys(inputText);
 		Thread.sleep(3000);
@@ -54,7 +54,7 @@ public class PositiveTestCase extends BaseClass{
 		Log.info("checking if the error exists");
 		boolean result = googleTranslatePage.getTextArea().getText().contains(inputText);
 		Assert.assertFalse(result);
-		Log.testCaseEnds("checkForErrorReplaement");
+		Log.testCaseEnds("checkForErrorReplacement");
 	}
 	
 	

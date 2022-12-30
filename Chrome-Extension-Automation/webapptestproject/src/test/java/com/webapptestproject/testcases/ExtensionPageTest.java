@@ -41,5 +41,5 @@ public class ExtensionPageTest extends BaseClass{
 		Assert.assertTrue(result, " Installed !");
 		System.out.println("Ended");
 	}
-	
+		
 }

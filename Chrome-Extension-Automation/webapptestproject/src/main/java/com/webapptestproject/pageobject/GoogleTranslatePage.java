@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.webapptestproject.base.BaseClass;
 
-public class GoogleTranslatePage extends BaseClass{
+public class GoogleTranslatePage extends BaseClass {
 	// https://translate.google.ca/
 	
 	@FindBy(xpath="//textarea[@aria-label='Source text']")
@@ -33,7 +33,7 @@ public class GoogleTranslatePage extends BaseClass{
 		getTextArea().sendKeys(text);
 	}
 	
-	// get value for number of dettected errors
+	// get value for number of detected errors
 	public String getErrorIconValue() {
 		jsExecutor = (JavascriptExecutor) BaseClass.getDriver(); 
 		String jsError = " return document.querySelector('#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.ccvoYb.EjH7wc > div.AxqVh > div.OPPzxe > c-wiz.rm1UF.UnxENd.dHeVVb > span > span > div > grammarly-extension:nth-child(2)').shadowRoot.querySelector('div > div > div > div > div > div:nth-child(2) > div > div > div > div > div._1iP8W > div').textContent";
@@ -63,13 +63,8 @@ public class GoogleTranslatePage extends BaseClass{
 		return textArea;
 	}
 	
-	public boolean checkIfEnabled() {
-//		if(getGrammarlyShadomDOMTag().equals)
-//			return false;
-		return true;
-	}
-	
 	public void hoverOverText() throws AWTException, InterruptedException {
+		Thread.sleep(2000);
 		Point topLeft = textArea.getLocation();
 		Actions actions = new Actions(BaseClass.getDriver());
 		actions.moveToElement(getTextArea()).build().perform();

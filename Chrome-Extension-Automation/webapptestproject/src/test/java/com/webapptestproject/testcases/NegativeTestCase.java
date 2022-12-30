@@ -35,18 +35,16 @@ public class NegativeTestCase extends BaseClass{
 	@Test
 	public void validateLanguageErrorsAreNotDetected(String extensionName) throws InterruptedException, AWTException {
 		Log.testCasestarts("validateLanguageErrorsAreNotDetected");
-		// install extension
 		chromeWebStorePage = new ChromeWebStorePage();
 		chromeWebStorePage.searchExtension(extensionName);
 		extensionPage = chromeWebStorePage.openExtensionPage(extensionName);
 		extensionPage.installExtension();
 		Log.info("Installed extension: " +extensionName);
-		// perform test  | switch to google translate
+		// performing test
 		googleTranslatePage = extensionPage.openGoogleTranslatePage();
-		Log.info("check if enabled");
-		System.out.println(googleTranslatePage.checkIfEnabled());
+//		Log.info("check if enabled");
+//		System.out.println(googleTranslatePage.checkIfEnabled());
 		Log.info("add text input");
-		Thread.sleep(3000);
 		// los datos - spanish - the data
 		String inputText = "los datos is precious";
 		googleTranslatePage.getTextArea().sendKeys(inputText);
@@ -56,9 +54,7 @@ public class NegativeTestCase extends BaseClass{
 		String actualError = "1";
 		Log.info("Asserting");
 		boolean result = errorCount.equals(actualError);
-		System.out.println(result);
 		Assert.assertFalse(result, " No error Detected ! ");
-		Thread.sleep(3000);
 		Log.testCaseEnds("validateLanguageErrorsAreNotDetected");
 	}
 	

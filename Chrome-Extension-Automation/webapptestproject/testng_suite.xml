@@ -7,10 +7,12 @@
   <test thread-count="3" name="Test_All">
   	<parameter name="browser" value="chrome"></parameter>
   	<parameter name="extensionName" value="Grammarly: Grammar Checker and Writing App"></parameter>
-    <classes>
-    	 <class name="com.webapptestproject.testcases.ExtensionPageTest"/>
-     	 <class name="com.webapptestproject.testcases.PositiveTestCase"/>
-     	 <class name="com.webapptestproject.testcases.NegativeTestCase"/>
+    <classes> 	 
+   
+   		<class name="com.webapptestproject.testcases.ExtensionPageTest"/> 
+   		<class name="com.webapptestproject.testcases.PositiveTestCase"/>    
+   		<class name="com.webapptestproject.testcases.NegativeTestCase"/>	
+   							
    	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

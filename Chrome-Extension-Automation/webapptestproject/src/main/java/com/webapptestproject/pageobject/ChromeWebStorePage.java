@@ -40,7 +40,7 @@ public class ChromeWebStorePage extends BaseClass{
 	
 	public void searchExtension(String extensionName) throws InterruptedException {
 		getSearchBoxField().sendKeys(extensionName);
-		Thread.sleep(2000);
+	//	Thread.sleep(2000);
 		getSearchBoxField().sendKeys(Keys.ENTER);
 	}
 	
@@ -62,7 +62,6 @@ public class ChromeWebStorePage extends BaseClass{
 	
 	public ExtensionPage openExtensionPage(String extensionName) {
 		// select extension from List
-		System.out.print(getAddressList().size());
 		for(WebElement e : getAddressList()) {
 			if(e.getAttribute("textContent").contains(extensionName)) {
 				e.click();

@@ -33,7 +33,6 @@ public class ChromeWebStorePageTest extends BaseClass{
 		// install extension
 		chromeWebStorePage = new ChromeWebStorePage();
 		chromeWebStorePage.searchExtension(extensionName);
-		Thread.sleep(2000);
 		boolean result = chromeWebStorePage.validateIfExtensionExist(extensionName);
 		Assert.assertTrue(result, " Extension Exists !");
 		Log.testCaseEnds("Extension found: " +  extensionName );
