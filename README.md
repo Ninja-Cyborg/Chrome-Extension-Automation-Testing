@@ -33,7 +33,8 @@
 
 # Limitations
 - To get the dynamic component(inline-card) from shadom-DOM : The code to hover over test to show inline-card is hard-coded.
-
+- For the same reson the negative and postive tests can not run parrallel on same machine
+- Moreover, Grammarly website stats the support for Google Docs. But, it requires additional step to sign-in. I deemed that as out of scope for the project, and choose  not to implement.
 
 # HTML Reports
 - [EXTENT REPORTS](https://github.com/Ninja-Cyborg/Chrome-Extension-Automation-Testing/tree/main/Chrome-Extension-Automation/webapptestproject/test-output/ExtentReport)
