@@ -1,11 +1,11 @@
 # Chrome-Extension-Automation-Testing
 ##  Automation of Chrome Extension with Selenium
 
-# Screen recording links
+# Youtube recording links
 - [Structure and Approach for Framework-Walkthorough](https://www.youtube.com/watch?v=i1r9rN8Je5M)
 - [Test Run and test reports](https://www.youtube.com/watch?v=vNmiUvb_Hf8)
 
-# TestCases list
+# Excel Sheet list
 - [View excelSheet](https://github.com/Ninja-Cyborg/Chrome-Extension-Automation-Testing/blob/main/Chrome-Extension-Automation/webapptestproject/src/main/resources/testCases.xlsx)
 
 
