@@ -8,9 +8,8 @@
 # Excel Sheet list
 - [View excelSheet](https://github.com/Ninja-Cyborg/Chrome-Extension-Automation-Testing/blob/main/Chrome-Extension-Automation/webapptestproject/src/main/resources/testCases.xlsx)
 
-
 # Approach
-- I followed Data driven approach
+- This project follows Data driven approach
 - To run tests for specific extensions, the changes can be made in key-value pairs in testng_suite.xml file
 - To test Grammarly extension, first browser validates if it exists for browser
 - Then the installation involves javascript popups, which are handles by js query
@@ -26,15 +25,15 @@
 - Used Robot class to hover over text, to interact with dynamic componenets
 
 # Running test cases:
-- Run following file as TestNg_suite:  testng_suite.xml 
+- Run following file as TestNg suite from IDE:  testng_suite.xml 
 
 # Modifying testCase
 - you can change the values for browser, extensionName from testng_suite.xml file
 
 # Limitations
-- To get the dynamic component(inline-card) from shadom-DOM : The code to hover over test to show inline-card is hard-coded.
-- For the same reson the negative and postive tests can not run parrallel on same machine
-- Moreover, Grammarly website stats the support for Google Docs. But, it requires additional step to sign-in. I deemed that as out of scope for the project, and choose  not to implement.
+- To get the dynamic component(inline-card) from shadom-DOM : The step has been hard-coded to hover over test to show inline-card
+- For the same reason the negative and postive tests can not run parrallel on same machine
+- Moreover, Grammarly website stats the support for Google Docs. But, it requires additional step to sign-in. I deemed that as out of scope for the project, and choose not to implement. Instead used online text editor to verify extension's feature.
 
 # HTML Reports
 - [EXTENT REPORTS](https://github.com/Ninja-Cyborg/Chrome-Extension-Automation-Testing/tree/main/Chrome-Extension-Automation/webapptestproject/test-output/ExtentReport)
